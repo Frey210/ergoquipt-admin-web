@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react'
-import { adminAPI } from '../services/api'
+import { useState, useEffect } from 'react'
 import type { Respondent, PaginatedResponse } from '../types'
 
-const Respondents: React.FC = () => {
+const Respondents = () => {
   const [respondents, setRespondents] = useState<Respondent[]>([])
   const [loading, setLoading] = useState(true)
   const [pagination, setPagination] = useState({ page: 1, pageSize: 10, total: 0 })

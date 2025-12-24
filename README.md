@@ -9,7 +9,7 @@ Dashboard web untuk admin dan super admin Ergoquipt. Aplikasi ini memusatkan pen
 - Monitoring rekaman tympani dan HRV per operator.
 - Ringkasan metrik dan tren aktivitas laboratorium.
 - Data export dan halaman pengaturan.
-- Status kesehatan backend pada dashboard.
+- Status backend health pada dashboard.
 
 ## Tech Stack
 

@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from 'react'
-import { useAuthStore } from '../stores/auth-store'
+import { useState, useEffect } from 'react'
 import { adminAPI } from '../services/api'
 import type { User } from '../types'
 
-const Operators: React.FC = () => {
-  const { user } = useAuthStore()
+const Operators = () => {
   const [operators, setOperators] = useState<User[]>([])
   const [loading, setLoading] = useState(true)
   const [showCreateModal, setShowCreateModal] = useState(false)
